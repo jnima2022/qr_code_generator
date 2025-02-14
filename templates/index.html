@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+
+        <!-- Dark Mode Toggle -->
+        <button id="darkModeToggle" onclick="toggleDarkMode()">DARK MODE</button>
+
+        <form id="qrForm">
+            <label for="data">Enter text/URL:</label>
+            <input type="text" id="data" name="data" required>
+            <br><br>
+
+            <label for="size">QR Code Size:</label>
+            <select id="size" name="size">
+                <option value="5">Small</option>
+                <option value="10" selected>Medium</option>
+                <option value="15">Large</option>
+            </select>
+            <br><br>
+
+            <label for="bg_color">Background Color:</label>
+            <input type="color" id="bg_color" name="bg_color" value="#ffffff">
+            <br><br>
+
+            <label for="format">Select Format:</label>
+            <select id="format" name="format">
+                <option value="png">PNG</option>
+                <option value="svg">SVG</option>
+            </select>
+            <br><br>
+
+            <button type="button" onclick="generateQRCode()">Generate QR Code</button>
+            <button type="button" onclick="resetForm()">Reset</button>
+        </form>
+
+        <div id="qrPreview" style="display: none;">
+            <h2>QR Code Preview:</h2>
+            <img id="qrImage" src="" alt="QR Code will appear here">
+            <br>
+            <a id="downloadLink" href="#" download style="display: none;">Download QR Code</a>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
