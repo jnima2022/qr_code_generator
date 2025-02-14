@@ -2,6 +2,9 @@
 
 This project is a simple QR Code Generator web app built with Flask for the backend and HTML/CSS/JavaScript for the frontend. Users can input text or URLs, customize the size and background color, and generate a downloadable QR code. It also features a dark mode toggle for a better user experience.
 
+## Demo
+[Click here to watch the demo](https://private-user-images.githubusercontent.com/121528869/413193370-b25c8221-a3f6-4bc2-a2b6-9a11f99c83ef.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk1MTYzMzQsIm5iZiI6MTczOTUxNjAzNCwicGF0aCI6Ii8xMjE1Mjg4NjkvNDEzMTkzMzcwLWIyNWM4MjIxLWEzZjYtNGJjMi1hMmI2LTlhMTFmOTljODNlZi5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxNFQwNjUzNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMjk5MjFjNTVlYTg5OWEyYTBmZjdhZmU5Mzk1OGMyZTc3NGIyOWVlZmIzMjk2NzJkNWViODViZTAyOTNiNDA0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Sfr1FVGbYacmhNDFmlpc7Z6yljtE6lBQXlWWy8UZQdM)
+
 ## Features
 
 - Generate QR codes from URLs or text.
